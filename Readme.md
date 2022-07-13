@@ -25,3 +25,15 @@ If you open this project in Intellij or Eclipse IDE then you must have the follo
 
 1) maven-3.8.6
 2) Java 1.8 and above
+
+## Improvements
+
+Following improvements can be added
+
+1) Better reporting with testng or serenity
+
+2) Hardcode messages can be made configurable
+
+3) Messages can be serialized/deserialized by creating relevant POJO Classes
+
+4) More negative tests can be added for other endpoints too.
