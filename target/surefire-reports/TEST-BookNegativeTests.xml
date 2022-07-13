@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="BookNegativeTests" time="1.736" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/viswanathbanakar/Documents/VB/kraken-websocket-client-automation/target/test-classes:/Users/viswanathbanakar/Documents/VB/kraken-websocket-client-automation/target/classes:/Users/viswanathbanakar/.m2/repository/org/glassfish/tyrus/bundles/tyrus-standalone-client/1.9/tyrus-standalone-client-1.9.jar:/Users/viswanathbanakar/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/viswanathbanakar/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/viswanathbanakar/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/viswanathbanakar/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/viswanathbanakar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.2/jackson-databind-2.8.2.jar:/Users/viswanathbanakar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/viswanathbanakar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.2/jackson-core-2.8.2.jar:/Users/viswanathbanakar/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Users/viswanathbanakar/Library/Java/JavaVirtualMachines/temurin-11.0.15/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/viswanathbanakar/Documents/VB/kraken-websocket-client-automation/target/surefire/surefirebooter5115829320954776561.jar /Users/viswanathbanakar/Documents/VB/kraken-websocket-client-automation/target/surefire 2022-07-13T08-59-23_650-jvmRun1 surefire14219902303289669025tmp surefire_07451913337717707686tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/viswanathbanakar/Documents/VB/kraken-websocket-client-automation/target/test-classes:/Users/viswanathbanakar/Documents/VB/kraken-websocket-client-automation/target/classes:/Users/viswanathbanakar/.m2/repository/org/glassfish/tyrus/bundles/tyrus-standalone-client/1.9/tyrus-standalone-client-1.9.jar:/Users/viswanathbanakar/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/viswanathbanakar/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/viswanathbanakar/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/viswanathbanakar/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/viswanathbanakar/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/viswanathbanakar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.2/jackson-databind-2.8.2.jar:/Users/viswanathbanakar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/viswanathbanakar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.2/jackson-core-2.8.2.jar:/Users/viswanathbanakar/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/viswanathbanakar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="/Users/viswanathbanakar/Library/Java/JavaVirtualMachines/temurin-11.0.15/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/viswanathbanakar/Documents/VB/kraken-websocket-client-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/viswanathbanakar/Documents/VB/kraken-websocket-client-automation/target/surefire/surefirebooter5115829320954776561.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.15+10"/>
+    <property name="user.name" value="viswanathbanakar"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.15+10"/>
+    <property name="localRepository" value="/Users/viswanathbanakar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/ny/vwc2s1s10zjd4sq239hqp2d00000gn/T/"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="/Users/viswanathbanakar/Documents/VB/kraken-websocket-client-automation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/viswanathbanakar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.15+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="BookNegativeTests" classname="BookNegativeTests" time="1.736">
+    <error message="Index 0 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at BookNegativeTests.fetchData(BookNegativeTests.java:41)
+</error>
+    <system-out><![CDATA[Connecting to wss://ws.kraken.com
+Session 26d25fb7-4c85-4fff-8e5b-700045c61133 close because of CloseReason[1000]
+Connecting to wss://ws.kraken.com
+Session 313fb316-c2d0-4f7e-8e87-c62b21ce3d17 close because of CloseReason[1000]
+]]></system-out>
+  </testcase>
+</testsuite>

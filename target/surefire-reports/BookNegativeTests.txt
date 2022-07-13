@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: BookNegativeTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.736 s <<< FAILURE! - in BookNegativeTests
+BookNegativeTests  Time elapsed: 1.736 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at BookNegativeTests.fetchData(BookNegativeTests.java:41)
+
